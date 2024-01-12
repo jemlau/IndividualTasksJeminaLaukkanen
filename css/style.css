@@ -1,0 +1,71 @@
+body{
+background-color: white;
+font-size: 14px;
+margin: auto;   
+font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+header{
+color: beige;
+background-color: brown;
+font-size: 20px;
+text-decoration: dotted;
+padding: 1em;
+}
+
+nav{
+background-color: beige;
+padding: 0.2em;
+}
+
+nav ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.top-menu li {
+display: inline-block;
+margin-right: 20px;
+}
+
+.top-menu a{
+text-decoration: none;
+color: brown;
+font-weight: bold;
+}
+
+.top-menu a:hover{
+color: black;
+}
+
+h2{
+
+
+}
+
+p{
+
+
+}
+
+img{
+
+
+}
+
+section{
+
+
+}
+
+footer{
+background-color: brown;
+color: beige;
+padding: 1em;
+}
+
+.h2spe{
+background-color: brown;
+color: beige;
+}
