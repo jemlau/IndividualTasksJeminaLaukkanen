@@ -78,3 +78,15 @@ color: red;
 a:visited{
 color: red;
 }
+
+#main-header{
+background-color: black;
+text-align: center;
+}
+
+.content-article{
+background-color: black;
+border: 1px;
+padding: 20px;
+margin-bottom: 20px;
+}
