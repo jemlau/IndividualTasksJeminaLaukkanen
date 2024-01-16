@@ -5,6 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style2.css">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0;   
+        }
+        header{
+            text-align: center;
+            padding: 20px;
+            background-color: bisque;
+            width: 100%;
+        }
+
+        nav{
+            align-items: flex-start;
+            padding: 10px;
+            background-color: white;
+            font-size: large;
+        }
+
+        nav ul {
+            list-style: none;
+            color: black;
+        }
+
+        nav li {
+            margin-bottom: 20px;
+            
+        }
+
+        main{
+            align-items: flex-end;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        article{
+            flex: 1;
+            width: 70%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 30px;
+            align-items: flex-end;
+        }
+
+        aside{
+            width: 200px;
+            display: flex;
+            align-items: flex-start;
+            color: black;
+            background-color: white;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: bisque;
+            width: 100%;
+        } 
+    </style>
 </head>
 <body>
 
@@ -12,23 +80,53 @@
         <h1>Flex Box Examples</h1>
     </header>
 
-    <nav>
-        <ul>
-        
-        </ul>
-    </nav>
-
-    <main>
-        <h2>What is HTML?</h2>
-        <p></p>
-    </main>
-
     <aside>
-
+        <nav>
+            <ul>
+                <li>side bar</li>
+                <li>side bar</li>
+                <li>side bar</li>
+                <li>side bar</li>
+                <li>side bar</li>
+            </ul>
+        </nav>
     </aside>
 
+    <main>
+        <article>
+            <h2>What is HTML?</h2>
+            <p>Hypertext Markup Language (HTML) is the standard markup language for documents
+               that are designed to be displayed in a web browser. HTML is
+               not a programming language. It is a markup language that
+               tells browser how to structure a website. HTML is made up
+               of series of elements such as a piece of text, a paragraph,
+               list, table, links or forms.</p>
+        </article>
+
+        <article>
+            <h2>HTML Elements</h2>
+            <p>As in above example, html document consists of a tree of
+               elements and text. Each element starts with a tag and 
+               ends with a tag. Tags have to be nested such that they
+               are completely within each other without overlapping.</p>
+        </article>
+
+        <article>
+            <h2>Block Level Elements</h2>
+            <p>Block-level elements form a visible block on a page. 
+               A block-level element appears on a new line following
+               the content that precedes it. Any content that follows 
+               a block-level element also appears on a new line. Block-
+               level elements are usually structural elements on the 
+               page. For example, a block-level element might represent headings, paragraphs, lists, navigation menus, or footers. A block-level element wouldn't be nested inside an
+               inline element, but it might be nested inside another 
+               block-level element.</p>
+        </article>
+
+    </main>
+
     <footer>
-        <p>Learning Flex @ 2022</p>
+        <h1>Learning Flex @ 2022</h1>
     </footer>
 
     
