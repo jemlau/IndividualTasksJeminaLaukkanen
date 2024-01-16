@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        main, footer{
+            display: flex;
+        }
+        article{
+            background-color: beige;
+            margin: 5px;
+        }
+        .bigbox{
+            flex: 1;
+        }
+
+        .big{
+            flex-grow: 2;
+            background-color: bisque;
+        }
+
+        .small{
+            flex: 1;
+            background-color: blanchedalmond;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <article class="big">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ducimus vero corporis reprehenderit, blanditiis reiciendis rem dicta, commodi cum modi quia non sunt nobis natus a velit! Repellat, ipsum labore.</article>
+        <article class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id aliquid. Animi nulla, minima perspiciatis, fugit neque ipsum iste iusto ut dolores aperiam aliquid porro accusamus dignissimos. Enim, rem cupiditate?</article>
+        <article class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, incidunt deleniti optio, non vel ab labore ex at, suscipit praesentium aliquam itaque cum odit eaque illum odio. Iure, hic minus!</article>
+    </main>
+
+    <footer>
+        <p class="big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquid, culpa nisi veniam maiores voluptas aperiam corrupti unde perspiciatis nemo ipsam voluptatibus repellat delectus voluptate necessitatibus expedita libero pariatur rem.</p>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias eius fuga sit officiis. Fugit possimus quaerat temporibus nemo dignissimos officia nisi minus omnis quis officiis, eum est, natus inventore.</p>
+    </footer>
+    
+</body>
+</html>
